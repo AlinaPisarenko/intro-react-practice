@@ -3,7 +3,7 @@ import React from 'react'
 export default function CharacterCard({ monster }) {
 console.log(monster)
 
-const { name, image } = monster
+const { name, image, isGood } = monster
 // Object destructuring:
 //  This `const { name, image } = monster` 
 //             is the same as
@@ -16,7 +16,7 @@ const { name, image } = monster
     <div className="CharacterCard">
       <h3>{name}</h3>
       <img src={image}></img>
-      <button>Replace me 👀</button>
+      <button>{isGood ? "I'm good 😇" : "I'm bad 😈"}</button>
       <button className="remove-btn">REMOVE</button>
     </div>
   )

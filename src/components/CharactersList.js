@@ -1,6 +1,8 @@
 import CharacterCard from "./CharacterCard"
 
 export default function CharactersList({ monsters }) {
+  //Always check your data
+  //It will save you a lot of time if you make a mistake
   console.log(monsters)
 
   return (
