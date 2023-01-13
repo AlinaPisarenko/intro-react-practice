@@ -4,6 +4,7 @@ export default function CharacterCard({ monster }) {
 console.log(monster)
 
 const { name, image, isGood } = monster
+
 // Object destructuring:
 //  This `const { name, image } = monster` 
 //             is the same as
